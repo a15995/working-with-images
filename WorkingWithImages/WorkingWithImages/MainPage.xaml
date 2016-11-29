@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:WorkingWithImages;assembly=WorkingWithImages"
+       x:Class="WorkingWithImages.MainPage">
+  <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <!--<Label Text="ImageSource.FromFile" />
+    <Image Source="waterfront.jpg" />
+    <Label Text="'waterfront.jpg' is referenced in Xaml" />-->
+    <!-- use a custom Markup Extension - Resources.cs -->
+    <!--<Image Source="{local:ImageResource WorkingWithImages.beach.jpg}" />-->
+    <Label Text="Image UriSource Xaml" />
+    <Image Source="https://xamarin.com/content/images/pages/forms/example-app.png" />
+    <Label Text="example-app.png gets downloaded from xamarin.com" />
+  </StackLayout>
+</ContentPage>
